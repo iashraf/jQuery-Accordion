@@ -46,3 +46,8 @@ $("#accordion").accordion({
 	defaultPane: 1 // will open the first pane by default
 });
 ```
+
+License
+=========
+
+This plugin is free and unemcumbered software released into the public domain. For more information, see the included UNLICENSE file.
