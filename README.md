@@ -10,26 +10,26 @@ Required HTML:
 	<div class="accordion_item">
 
 		<div class="accordion_header">
-			<b>Heading 1</b>
-		</div><!-- .accordion_header -->
+			Heading 1
+		</div>
 
 		<div class="accordion_content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quam, eveniet numquam, animi laudantium aut.
-		</div><!-- .accordion_content -->
+		</div>
 
-	</div><!-- .accordion_item -->
+	</div>
 
 	<div class="accordion_item">
 
 		<div class="accordion_header">
-			<b>Heading 2</b>
-		</div><!-- .accordion_header -->
+			Heading 2
+		</div>
 
 		<div class="accordion_content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quam, eveniet numquam, animi laudantium aut.
-		</div><!-- .accordion_content -->
+		</div>
 
-	</div><!-- .accordion_item -->
+	</div>
 
 </div><!-- #accordion -->
 ```
@@ -43,7 +43,7 @@ With options:
 ```JavaScript
 $("#accordion").accordion({
 	speed: 250, // animation speed (in msecs)
-	defaultPane: 1 // will open the first pane by default
+	defaultPane: 1 // will open the pane 1 by default
 });
 ```
 
