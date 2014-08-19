@@ -37,7 +37,7 @@ With options:
 ```JavaScript
 $("#accordion").accordion({
 	speed: 250, // animation speed (in msecs)
-	defaultPane: 1 // will open the pane 1 by default
+	defaultPane: 1 // will open pane 1 by default
 });
 ```
 
