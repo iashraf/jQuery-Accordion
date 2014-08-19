@@ -8,27 +8,21 @@ Required HTML:
 <div id="accordion">
 
 	<div class="accordion_item">
-
 		<div class="accordion_header">
 			Heading 1
 		</div>
-
 		<div class="accordion_content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quam, eveniet numquam, animi laudantium aut.
 		</div>
-
 	</div>
 
 	<div class="accordion_item">
-
 		<div class="accordion_header">
 			Heading 2
 		</div>
-
 		<div class="accordion_content">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quam, eveniet numquam, animi laudantium aut.
 		</div>
-
 	</div>
 
 </div><!-- #accordion -->

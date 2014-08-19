@@ -4,7 +4,7 @@
  * Last updated: 19 Aug 2014
  * ------
  * OPTIONS:
- * Speed: >0 | The speed (in msecs) that the animation runs
+ * speed: >0 | The speed (in msecs) that the animation runs
  * defaultPane: >1 | The pane which should be opened by default
  */
 $.fn.accordion = function(options){
