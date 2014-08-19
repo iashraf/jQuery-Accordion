@@ -18,15 +18,17 @@ $.fn.accordion = function(options){
 
 	if (accordion.length > 0) {
 
+		// hide all panes on load
 		$(".accordion_content", accordion).hide();
 
-		// open the default accordion
+		// open the default pane
 		if (settings.defaultPane > 0) {
 			$(".accordion_item", accordion).eq(settings.defaultPane-1).find(".accordion_content").stop(true,true).slideDown(0, function(){
 				$(this).parent().addClass("open");
 			});
 		}
 
+		// open the correct pane when clicked
 		$(".accordion_header", accordion).click(function(){
 
 			var pane = $(this).parent();
